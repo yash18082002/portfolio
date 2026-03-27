@@ -108,7 +108,7 @@ const projects = [
   },
   {
     icon: '⚡',
-    title: 'Distributed Rate Limiter',
+    title: 'API Rate Limiter',
     description: "A high-performance rate limiter in C++ that keeps your APIs safe from getting overwhelmed. Handles 50,000+ requests per second across a 3-node cluster with less than 100ms to sync up. Built because sometimes you need to tell eager clients to slow down without being rude about it.",
     tech: ['C++', 'gRPC', 'CMake', 'Protobuf'],
     github: '',
@@ -520,7 +520,7 @@ export default function Home() {
           <div className="contact-content">
             <div className="contact-text">
               <h3>Let&apos;s build something <em style={{ fontFamily: "'Playfair Display', serif", color: 'var(--accent)' }}>amazing</em> together</h3>
-              <p>Whether you have a project in mind, want to discuss distributed systems over coffee, or just want to debate which trilogy is the best (there&apos;s only one correct answer), I&apos;d love to hear from you.</p>
+              <p>Whether you have a project in mind, want to discuss something over coffee, or just want to debate which trilogy is the best (there&apos;s only one correct answer), I&apos;d love to hear from you.</p>
               <div className="contact-links">
                 <a 
                   href="mailto:agarway3@uci.edu" 
