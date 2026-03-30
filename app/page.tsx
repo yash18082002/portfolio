@@ -95,7 +95,7 @@ const projects = [
     title: 'Project IVA',
     description: "A real-time conversational AI physician avatar with ~500ms response latency. Built a RAG pipeline over 100+ medical documents with vector search and Redis caching. HIPAA-aligned with encrypted data flow and audit logging. Because healthcare AI should actually be secure.",
     tech: ['Next.js', 'FastAPI', 'GraphQL', 'LiveKit', 'AWS', 'RAG'],
-    github: '',
+    github: 'https://github.com/shlokjain/Capstone',
     demo: '',
   },
   {
@@ -103,7 +103,7 @@ const projects = [
     title: 'SynthMon',
     description: "A synthetic monitoring service in Go that keeps watch over your HTTP endpoints like a loyal droid. Tracks latency percentiles, SSL expiry, and availability with less than 30 seconds to detect when things go wrong. Because finding out from Twitter that your site is down is not a good look.",
     tech: ['Go', 'Terraform', 'Prometheus', 'Grafana', 'AWS'],
-    github: '',
+    github: 'https://github.com/yash18082002/synthmon',
     demo: '',
   },
   {
@@ -111,7 +111,7 @@ const projects = [
     title: 'API Rate Limiter',
     description: "A high-performance rate limiter in C++ that keeps your APIs safe from getting overwhelmed. Handles 50,000+ requests per second across a 3-node cluster with less than 100ms to sync up. Built because sometimes you need to tell eager clients to slow down without being rude about it.",
     tech: ['C++', 'gRPC', 'CMake', 'Protobuf'],
-    github: '',
+    github: 'https://github.com/yash18082002/distributed-rate-limiter',
     demo: '',
   },
   {
@@ -119,7 +119,7 @@ const projects = [
     title: 'Yelp.com Prototype',
     description: "A full-stack food ordering platform where users browse menus and order food, while restaurant managers handle their operations. JWT authentication keeps everyone in their lane. Improved restaurant management efficiency by 20%.",
     tech: ['React', 'Node.js', 'MongoDB', 'Express'],
-    github: '',
+    github: 'https://github.com/yash18082002/yelp-clone',
     demo: '',
   },
   {
@@ -127,7 +127,7 @@ const projects = [
     title: 'Pack & Move',
     description: "A platform to browse moving companies and get custom price and time estimates. Integrated Mapbox API for distance-based calculations. Responsive design increased user interaction speed by 35%. Moving is stressful enough without a bad website.",
     tech: ['React', 'Node.js', 'MongoDB', 'Mapbox'],
-    github: '',
+    github: 'https://github.com/yash18082002/MinorProject',
     demo: '',
   },
 ]
